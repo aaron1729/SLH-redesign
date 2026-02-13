@@ -24,7 +24,8 @@
 - 
 - 
 - 
-- add OG and favicon
+- add favicon
+- add OG
   - demo on imessage, whatsapp
 
 
