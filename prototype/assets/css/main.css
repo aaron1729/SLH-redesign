@@ -538,18 +538,18 @@ p + p { margin-top: var(--space-md); }
 .action-bar {
   position: relative;
   z-index: 5;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin-top: -3rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .action-bar__item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--space-xs);
-  padding: var(--space-md) var(--space-sm);
+  gap: var(--space-sm);
+  flex: 1 1 100%;
+  padding: var(--space-sm) var(--space-md);
   color: var(--color-white);
   text-decoration: none;
   text-align: center;
@@ -573,12 +573,21 @@ p + p { margin-top: var(--space-md); }
 }
 
 .action-bar__icon {
-  font-size: 1.5rem;
-  line-height: 1;
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .action-bar__label {
-  display: none;
+  display: block;
+}
+
+/* Volunteer + Events icons render a bit larger */
+.action-bar__item:nth-child(3) .action-bar__icon,
+.action-bar__item:nth-child(5) .action-bar__icon {
+  width: 2.125rem;
+  height: 2.125rem;
 }
 
 /* ── Legacy Hero (for interior pages) ──────────────────────────── */
@@ -1521,12 +1530,19 @@ p + p { margin-top: var(--space-md); }
     font-size: var(--font-size-xl);
   }
 
-  .action-bar__label {
-    display: block;
+  .action-bar__item {
+    flex: 1 1 0;
+    flex-direction: column;
+    padding: var(--space-md) var(--space-sm);
+    justify-content: flex-start;
   }
 
-  .action-bar__item {
-    padding: var(--space-md) var(--space-md);
+  .action-bar__icon,
+  .action-bar__item:nth-child(3) .action-bar__icon,
+  .action-bar__item:nth-child(5) .action-bar__icon {
+    height: 2.875rem;
+    width: auto;
+    margin-bottom: var(--space-xs);
   }
 
   .card-grid {
@@ -1596,8 +1612,12 @@ p + p { margin-top: var(--space-md); }
     font-size: var(--font-size-base);
   }
 
-  .action-bar__icon {
-    font-size: 1.75rem;
+  .action-bar__icon,
+  .action-bar__item:nth-child(3) .action-bar__icon,
+  .action-bar__item:nth-child(5) .action-bar__icon {
+    height: 3.375rem;
+    width: auto;
+    margin-bottom: var(--space-sm);
   }
 
   /* Desktop nav */

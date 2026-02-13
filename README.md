@@ -1,5 +1,18 @@
 # SLH-redesign
 
+## aaron to-do
+
+- [ ] match the UI to a large extent, but fix in all ways imaginable (especially at various viewport widths)
+- [ ] export this all to a wordpress template
+- [ ] create a wordpress account, with a host that supports command-line or github integrations, to test out the template.
+  - theirs is apparently godaddy's managed wordpress hosting, using "children charity" theme by "CMS masters"
+  - this apparently does not have a github integration
+- [ ] make 1-2 sample forms based on theirs, through airtable and/or gforms
+- [ ] make a _one-page_ instruction guide for SLH staff
+  - note the possibility of adding a blog
+
+
+
 ## instructions for claude code
 
 You are Claude Code acting as a senior front-end + WordPress theme engineer.
