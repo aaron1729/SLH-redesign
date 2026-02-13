@@ -11,6 +11,22 @@
 - [ ] make a _one-page_ instruction guide for SLH staff
   - note the possibility of adding a blog
 
+## changes made
+
+### general
+- modernize UI (e.g. rounded corners instead of sharp ones for buttons)
+- mobile-first
+
+
+### specific
+- ensure "action" buttons are available at any screen width
+- 
+- 
+- 
+- 
+- add OG and favicon
+  - demo on imessage, whatsapp
+
 
 
 ## instructions for claude code
