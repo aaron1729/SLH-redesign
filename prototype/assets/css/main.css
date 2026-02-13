@@ -918,6 +918,11 @@ p + p { margin-top: var(--space-md); }
   color: rgba(255, 255, 255, 0.5);
 }
 
+.footer-legal {
+  margin-bottom: var(--space-xs);
+  font-size: 0.75rem;
+}
+
 /* ── Page Header (interior pages) ──────────────────────────────── */
 .page-header {
   background: linear-gradient(135deg, var(--color-bg-dark) 0%, var(--color-primary-dark) 100%);
