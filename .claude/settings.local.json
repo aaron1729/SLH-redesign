@@ -4,7 +4,15 @@
       "WebFetch(domain:saintlouisehouse.org)",
       "Bash(curl:*)",
       "Bash(# Try the WP REST API to find media items curl -s \"\"https://saintlouisehouse.org/wp-json/wp/v2/media?per_page=100&search=wraparound\"\" --max-time 10 | python3 -m json.tool)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(git stash pop:*)",
+      "Bash(git stash:*)",
+      "Bash(git rm:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3.13:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
