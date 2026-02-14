@@ -53,3 +53,61 @@ Custom WordPress theme redesign for [Saint Louise House](https://saintlouisehous
 
 ## Iteration Status
 Currently doing page-by-page review with the user, starting from `index.html`.
+
+## Work Summary (Codex) — February 14, 2026
+
+### What Was Implemented
+- Reviewed and implemented the full Gemini audit content requirements across the static prototype.
+- Replaced placeholder and outdated messaging with current mission language, hidden homeless framing, two-generational model language, and current impact metrics.
+- Added or updated key site pages and sections to match current SLH information architecture:
+  - `index.html` (homepage)
+  - `about.html` and About subpages:
+    - `about-who-we-are.html`
+    - `about-mission-strategy.html`
+    - `about-who-we-serve.html`
+    - `about-leadership.html`
+    - `about-community-partners.html`
+  - `programs.html` (services + eligibility + resources)
+  - `give.html` (one-time, Good Neighbor, Legacy, sustainment circles)
+  - `get-involved.html` (events, volunteer, in-kind donations)
+  - `annual-reports.html`
+  - `join-our-team.html`
+  - `blog.html`
+  - `contact.html`
+  - `apply.html` (kept as an eligibility/application alias page)
+
+### Content Alignment Work
+- Updated headline stats and outcomes with verified program figures used in current SLH messaging.
+- Ensured Empowerment Partners terminology and curriculum references are present (`Your Money, Your Goals`, `Nurturing Parenting`).
+- Added and/or expanded:
+  - Giving circles (`Safe Keeper`, `Hope Builder`, `Change Maker`)
+  - Good Neighbor monthly giving entry point
+  - Program eligibility/application documents and intake details
+  - Helpful resources and community referral entries
+  - Community partners and foundation partner content
+  - Annual report archive links
+  - Team/careers page content
+  - Blog listing content with live post links
+
+### Styling and Readability Passes
+- Performed a second mobile-first readability pass in `assets/css/main.css`:
+  - Increased small-text legibility and line-height
+  - Improved section spacing rhythm on small screens
+  - Refined footer/card/text density for mobile readability
+  - Kept branding and layout system intact
+
+### Browser QA Performed
+- Ran multiple automated browser visual QA passes (desktop + mobile) using Playwright:
+  - Navigation checks
+  - Console/runtime error checks
+  - Failed request checks
+  - Horizontal overflow checks
+  - Broken image checks
+  - Full-page screenshots (including mobile menu-open captures)
+- Final live-parity pass report:
+  - `screenshots-temp/qa-visual-2026-02-14-pass3-live-parity/report.md`
+  - Result: 30 checks, 0 nav errors, 0 console/runtime errors, 0 request failures, 0 overflow issues, 0 broken images.
+
+### Important Notes
+- Work focused on content parity and structure in the static prototype (`/prototype`) as the design/source-of-truth stage.
+- Existing unrelated local repo changes were not intentionally modified/reverted by this pass.
