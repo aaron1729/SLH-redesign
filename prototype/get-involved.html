@@ -52,22 +52,159 @@
 
     <section id="volunteer" class="section" aria-labelledby="volunteer-heading">
       <div class="container">
-        <div class="text-center"><span class="section-label">Volunteer Roles</span><h2 class="section-heading" id="volunteer-heading">Volunteer opportunities</h2><p class="section-subtext" style="margin: 0 auto var(--space-lg);">Saint Louise House volunteers support family celebrations, workshop participation, and pantry resources.</p></div>
-        <div class="values-grid">
-          <div class="value-item"><h3>Birthday Cakes</h3><p>Make every mother and child feel special on their birthday by providing a personalized cake.</p></div>
-          <div class="value-item"><h3>Community Meals</h3><p>Support family participation in workshops by providing a meal for 25 people to share together beforehand.</p></div>
-          <div class="value-item"><h3>Product Drives</h3><p>Coordinate a drive for toiletries, laundry detergent, and cleaning supplies for our on-site pantry.</p></div>
-          <div class="value-item"><h3>Translation</h3><p>Help us meet families where they are by providing Spanish translation for documents and applications.</p></div>
+        <div class="text-center">
+          <span class="section-label">Give Your Time</span>
+          <h2 class="section-heading" id="volunteer-heading">Volunteer with Saint Louise House</h2>
+          <p class="section-subtext" style="margin: 0 auto var(--space-xl);">Our volunteers are essential to the work we do. Whether you have a few hours a month or want to commit to an ongoing role, there is a place for you.</p>
+        </div>
+
+        <!-- Orientation & application links -->
+        <div class="card" style="max-width: var(--container-narrow); margin: 0 auto var(--space-2xl); border-left: 4px solid var(--color-primary);">
+          <div class="card__body">
+            <h3 class="card__title">Get Started</h3>
+            <p class="card__text"><strong>Orientation sessions</strong> are held on the 3rd Wednesday of each month, 12:00 &ndash; 1:00 p.m. via Zoom. Open to all ages -- learn about our program and how you can help.</p>
+            <p style="margin-top: var(--space-md); display: flex; flex-wrap: wrap; gap: var(--space-sm);">
+              <a href="https://bttr.im/5sn1v" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Individual Application</a>
+              <a href="https://bttr.im/ndttk" class="btn btn--outline btn--sm" target="_blank" rel="noopener noreferrer">Group Application</a>
+            </p>
+            <p style="margin-top: var(--space-sm); font-size: var(--font-size-sm); color: var(--color-text-light);">Questions? Email <a href="mailto:volunteer@saintlouisehouse.org">volunteer@saintlouisehouse.org</a></p>
+          </div>
+        </div>
+
+        <!-- Community Nights -->
+        <div style="max-width: var(--container-narrow); margin: 0 auto var(--space-2xl); text-align: center;">
+          <h3 style="margin-bottom: var(--space-md);">Community Nights</h3>
+          <p style="color: var(--color-text-light); margin-bottom: var(--space-lg);">Join us for seasonal events throughout the year that bring our community together.</p>
+          <div class="values-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <div class="value-item"><h3>Spring Celebration</h3><p>April</p></div>
+            <div class="value-item"><h3>Mother&rsquo;s Day Store</h3><p>May</p></div>
+            <div class="value-item"><h3>Back to School Bash</h3><p>August</p></div>
+            <div class="value-item"><h3>Trunk or Treat</h3><p>October</p></div>
+            <div class="value-item"><h3>Gratitude Celebration</h3><p>November</p></div>
+            <div class="value-item"><h3>Season of Light</h3><p>December</p></div>
+          </div>
+        </div>
+
+        <div class="values-grid" style="margin-bottom: var(--space-3xl);">
+          <div class="value-item">
+            <h3>Provide Meals</h3>
+            <p>Prepare and deliver meals for up to 25 people before 4:30 p.m. to support life skills workshops. Volunteers may serve and assist with cleanup.</p>
+          </div>
+          <div class="value-item">
+            <h3>Birthday Cakes</h3>
+            <p>Bake or purchase a birthday cake for a resident&rsquo;s child. Every child deserves to feel celebrated on their special day. Drop off during business hours.</p>
+          </div>
+          <div class="value-item">
+            <h3>Translation Assistance</h3>
+            <p>Help translate documents from English into Spanish, enter application information into our database, or provide interpretation services as needed.</p>
+          </div>
+          <div class="value-item">
+            <h3>Welcome Home Team</h3>
+            <p>Help furnish and set up apartments for new families moving in. Teams organize donated furniture, household items, and personal touches so families arrive to a home that&rsquo;s ready.</p>
+          </div>
+          <div class="value-item">
+            <h3>Food Bank Delivery</h3>
+            <p>Pick up orders from the Central Texas Food Bank and deliver to Saint Louise House. This monthly commitment takes about 1&ndash;2 hours.</p>
+          </div>
+          <div class="value-item">
+            <h3>Community Nights</h3>
+            <p>Join our regular Community Nights events where volunteers and families come together for dinner, activities, and fellowship on the Saint Louise House campus.</p>
+          </div>
+        </div>
+
+        <div style="max-width: var(--container-narrow); margin: 0 auto;">
+          <h3 class="text-center" style="margin-bottom: var(--space-xl);">Volunteer Interest Form</h3>
+          <form action="#" method="post" aria-label="Volunteer interest form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="vol-name">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="vol-name" name="name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="vol-email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="vol-email" name="email" required autocomplete="email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="vol-interest">Area of Interest <span aria-hidden="true">*</span></label>
+              <select id="vol-interest" name="interest" required>
+                <option value="">Select an area of interest</option>
+                <option value="meals">Provide Meals</option>
+                <option value="cakes">Birthday Cakes</option>
+                <option value="translation">Translation Assistance</option>
+                <option value="welcome-home">Welcome Home Team</option>
+                <option value="food-bank">Food Bank Delivery</option>
+                <option value="community-nights">Community Nights</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="vol-message">Message</label>
+              <textarea id="vol-message" name="message" placeholder="Tell us about your availability, skills, or any questions you have."></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn--secondary btn--lg">Submit Interest Form</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
 
+    <!-- ─── In-kind Donations ────────────────────────────────────── -->
     <section id="inkind" class="section section--alt" aria-labelledby="inkind-heading">
       <div class="container">
-        <div class="text-center"><span class="section-label">In-kind Donations</span><h2 class="section-heading" id="inkind-heading">Donation guidelines</h2></div>
+        <div class="text-center">
+          <span class="section-label">In-kind Donations</span>
+          <h2 class="section-heading" id="inkind-heading">Wish list &amp; donation guidelines</h2>
+        </div>
         <div class="card-grid">
-          <article class="card"><div class="card__body"><h3 class="card__title">How to donate items</h3><ul class="checklist"><li>Email photos of furniture to <a href="mailto:donations@saintlouisehouse.org">donations@saintlouisehouse.org</a> for approval.</li><li>Call <a href="tel:5123020027">512.302.0027</a> to schedule delivery.</li><li>No pickup available; all donations must be delivered.</li></ul></div></article>
-          <article class="card"><div class="card__body"><h3 class="card__title">Need details?</h3><p class="card__text">In-kind donation information and current needs can be requested via email.</p><p><a href="mailto:donations@saintlouisehouse.org">donations@saintlouisehouse.org</a></p></div></article>
+          <article class="card">
+            <div class="card__body">
+              <h3 class="card__title">Furniture</h3>
+              <ul class="checklist">
+                <li>Living room chairs</li>
+                <li>Side tables</li>
+                <li>Coffee tables</li>
+                <li>TV stands (no glass tops)</li>
+                <li>Dressers without mirrors</li>
+                <li>Chest of drawers</li>
+                <li>4-person dining tables and chairs</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3 class="card__title">Kitchen &amp; Household</h3>
+              <ul class="checklist">
+                <li>Cookie sheets</li>
+                <li>Pot holders</li>
+                <li>Can openers</li>
+                <li>Vegetable peelers</li>
+                <li>Toasters</li>
+                <li>Small and tall trash cans</li>
+                <li>Swiffers</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <div style="max-width: var(--container-narrow); margin: var(--space-2xl) auto 0;">
+          <div class="card" style="border-left: 4px solid var(--color-primary);">
+            <div class="card__body">
+              <h3 class="card__title">How to Donate Items</h3>
+              <ul class="checklist">
+                <li><strong>Furniture:</strong> Email photos to <a href="mailto:donations@saintlouisehouse.org">donations@saintlouisehouse.org</a> for approval before bringing items</li>
+                <li><strong>Schedule drop-off:</strong> Call <a href="tel:5123020027">512.302.0027</a> to arrange a delivery time</li>
+                <li><strong>No pickups available</strong> -- all donations must be delivered to our location</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card" style="border-left: 4px solid var(--color-accent); margin-top: var(--space-lg);">
+            <div class="card__body">
+              <h3 class="card__title">Items We Cannot Accept</h3>
+              <p class="card__text">Due to space and safety considerations, we are unable to accept the following items:</p>
+              <p style="color: var(--color-text-light);">Sofas &middot; Reclining chairs &middot; Mattresses &middot; Bed linens &middot; Towels &middot; Toddler beds &middot; Cribs &middot; Baby furniture &middot; Car seats &middot; Baby bottles &middot; Sippy cups &middot; Plastic tumblers &middot; Clothing &middot; Toys &middot; Glass-topped furniture &middot; Candles</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
