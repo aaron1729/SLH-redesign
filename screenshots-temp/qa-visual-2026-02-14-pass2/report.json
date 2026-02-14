@@ -1,0 +1,374 @@
+{
+  "generatedAt": "2026-02-14T02:00:47.904Z",
+  "totals": {
+    "checks": 24,
+    "navigationErrors": 0,
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "requestFailures": 0,
+    "overflowFlags": 0,
+    "brokenImages": 0
+  },
+  "results": [
+    {
+      "viewport": "desktop",
+      "page": "index.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "about.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "programs.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "apply.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "get-involved.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "contact.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "blog.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "about-who-we-are.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "about-mission-strategy.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "about-who-we-serve.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "about-leadership.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "about-community-partners.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "index.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "about.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "programs.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "apply.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "get-involved.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "contact.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "blog.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "about-who-we-are.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "about-mission-strategy.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "about-who-we-serve.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "about-leadership.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "about-community-partners.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    }
+  ]
+}
