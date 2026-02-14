@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
     initCarousel(track);
   }
 
+  /* ================================================================
+   *  IMPACT COUNTERS (Home Stats)
+   * ================================================================ */
+
+  initImpactCounters();
+
   /* ----------------------------------------------------------------
    *  Mobile Navigation — implementation
    * ---------------------------------------------------------------- */
@@ -280,5 +286,80 @@ document.addEventListener('DOMContentLoaded', function () {
     /* --- Start --------------------------------------------------- */
 
     applyMotionPreference(motionQuery.matches);
+  }
+
+  /* ----------------------------------------------------------------
+   *  Impact Counters — implementation
+   * ---------------------------------------------------------------- */
+
+  function initImpactCounters() {
+    var counters = document.querySelectorAll('.stat-number[data-target]');
+    if (!counters.length) return;
+
+    var reducedMotion = false;
+    if (window.matchMedia) {
+      reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    function setFinalValue(el) {
+      var target = parseFloat(el.getAttribute('data-target')) || 0;
+      var suffix = el.getAttribute('data-suffix') || '';
+      el.textContent = String(Math.round(target)) + suffix;
+      el.setAttribute('data-animated', 'true');
+    }
+
+    function animateValue(el) {
+      if (el.getAttribute('data-animated') === 'true') return;
+
+      var target = parseFloat(el.getAttribute('data-target')) || 0;
+      var suffix = el.getAttribute('data-suffix') || '';
+      var duration = 2800;
+      var start = null;
+
+      function frame(timestamp) {
+        if (!start) start = timestamp;
+        var progress = (timestamp - start) / duration;
+        if (progress > 1) progress = 1;
+
+        var eased = 1 - Math.pow(1 - progress, 3);
+        var value = Math.round(target * eased);
+        el.textContent = String(value) + suffix;
+
+        if (progress < 1) {
+          window.requestAnimationFrame(frame);
+        } else {
+          el.setAttribute('data-animated', 'true');
+        }
+      }
+
+      window.requestAnimationFrame(frame);
+    }
+
+    if (reducedMotion) {
+      for (var r = 0; r < counters.length; r++) {
+        setFinalValue(counters[r]);
+      }
+      return;
+    }
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries, obs) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) {
+            animateValue(entries[i].target);
+            obs.unobserve(entries[i].target);
+          }
+        }
+      }, { threshold: 0.35 });
+
+      for (var j = 0; j < counters.length; j++) {
+        observer.observe(counters[j]);
+      }
+      return;
+    }
+
+    for (var k = 0; k < counters.length; k++) {
+      animateValue(counters[k]);
+    }
   }
 });
