@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-14T02:23:27.677Z",
+  "generatedAt": "2026-02-14T02:42:59.146Z",
   "totals": {
-    "checks": 30,
+    "checks": 34,
     "navigationErrors": 0,
     "consoleErrors": 0,
     "pageErrors": 0,
@@ -236,6 +236,36 @@
       "brokenImages": []
     },
     {
+      "viewport": "desktop",
+      "page": "legacy-circle.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "desktop",
+      "page": "terms-and-conditions.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "brokenImages": []
+    },
+    {
       "viewport": "mobile",
       "page": "index.html",
       "status": "ok",
@@ -448,6 +478,36 @@
     {
       "viewport": "mobile",
       "page": "contact.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "legacy-circle.html",
+      "status": "ok",
+      "navError": null,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "requestFailures": [],
+      "overflow": {
+        "hasHorizontalOverflow": false,
+        "maxScrollWidth": 390,
+        "clientWidth": 390
+      },
+      "brokenImages": []
+    },
+    {
+      "viewport": "mobile",
+      "page": "terms-and-conditions.html",
       "status": "ok",
       "navError": null,
       "consoleErrors": [],

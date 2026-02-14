@@ -1,6 +1,6 @@
 # Browser Visual QA Report (Pass 3 Live Parity)
 
-- Checks: 30
+- Checks: 34
 - Navigation errors: 0
 - Console errors: 0
 - Page runtime errors: 0
